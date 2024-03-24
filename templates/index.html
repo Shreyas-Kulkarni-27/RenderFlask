@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AttritionGuard</title>
+    <style>
+        body {
+            background-image: url('static/Index_image.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .upload-form {
+            background-color: rgba(224, 209, 209, 0.616);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center
+        }
+        
+        .upload-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .upload-btn:hover {
+            background-color: #45a049;
+        }
+        button{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="upload-form">
+        <h1>Welcome to AttritionGuard App</h1>
+        <p>Turning insights into impact</p>
+        <form method="POST" action="/predict" enctype="multipart/form-data">
+            <label for="file" class="upload-btn">Choose File</label>
+            <input type="file" name="file" id="file" accept=".csv" style="display: none;"required>
+            <br><br>
+            <button type="submit">Upload File</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            text-align: center; /* Center align all text */
+        }
+        .card {
+            margin: 0 auto;
+            display: block;
+            width: 18rem;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .row > div {
+            width: calc(33.33% - 20px); /* 33.33% width for each card with 20px gap */
+        }
+
+        .row img {
+            height: 200px; /* Set a specific height for all images */
+            object-fit: cover; /* Maintain aspect ratio and cover the entire space */
+        }
+    </style>
+</head>
+<body>
+    <h1>Prediction of company dataset done</h1>
+    <h2>Attrition percentage is: {{p}} %</h2>
+
+    <div class="container">
+        <div class="row">
+            <div class="card1">
+                <img src="C:\Users\SK2712\OneDrive - Cal State Fullerton\Desktop\FinalProj\finalProject\important_features.png" class="card-img-top" alt="img">
+                <div class="card-body"></div>      
+            </div>
+            <div class="card2">
+                <img src="C:\Users\SK2712\OneDrive - Cal State Fullerton\Desktop\FinalProj\finalProject\Screenshot 2024-01-03 200623.png" class="card-img-top" alt="img">
+                <div class="card-body"></div>      
+            </div>
+            <div class="card3">
+                <img src="C:\Users\SK2712\OneDrive - Cal State Fullerton\Desktop\FinalProj\finalProject\Screenshot 2024-01-03 200623.png" class="card-img-top" alt="img">
+                <div class="card-body"></div>      
+            </div>
+        </div>
+        <div class="row">
+            <div class="card4">
+                <img src="C:\Users\SK2712\OneDrive - Cal State Fullerton\Desktop\FinalProj\finalProject\Screenshot 2024-01-03 200623.png" class="card-img-top" alt="img">
+                <div class="card-body"></div>      
+            </div>
+            <div class="card5">
+                <img src="C:\Users\SK2712\OneDrive - Cal State Fullerton\Desktop\FinalProj\finalProject\Screenshot 2024-01-03 200623.png" class="card-img-top" alt="img">
+                <div class="card-body"></div>      
+            </div>
+            <div class="card6">
+                <img src="C:\Users\SK2712\OneDrive - Cal State Fullerton\Desktop\FinalProj\finalProject\Screenshot 2024-01-03 200623.png" class="card-img-top" alt="img">
+                <div class="card-body"></div>      
+            </div>
+        </div>
+    </div>
+</body>
+</html>
