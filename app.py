@@ -2,7 +2,7 @@ import numpy as np
 import scipy as sp
 import pandas as pd 
 import os
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 from flask import Flask,request,render_template
 import pickle
 
