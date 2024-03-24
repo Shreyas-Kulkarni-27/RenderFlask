@@ -48,5 +48,4 @@ def predict():
     else:
         return render_template ('index.html',prediction_text='Predicted Failed')
 
-if __name__ == "__main__":
-    app.run (debug=True)             
+           
